@@ -1,0 +1,25 @@
+{
+  "name": "@adgorithmics/graphql-errors",
+  "version": "1.0.0",
+  "description": "Response erorr codes for graphql.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --quiet",
+    "precommit": "npm run lint",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adgorithmics-inc/graphql-errors.git"
+  },
+  "author": "Adgorithmics, LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adgorithmics-inc/graphql-errors/issues"
+  },
+  "homepage": "https://github.com/adgorithmics-inc/graphql-errors#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "6.1.0"
+  }
+}
