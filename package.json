@@ -1,6 +1,6 @@
 {
   "name": "@adgorithmics/graphql-errors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Response erorr codes for graphql.",
   "main": "index.js",
   "scripts": {
