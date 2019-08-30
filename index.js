@@ -8,6 +8,8 @@ Object.defineProperty(exports, '__esModule', { value: true });
     codes["OBJECT_DUPLICATE"] = "OBJECT_DUPLICATE";
     // Object matching query does not exist
     codes["OBJECT_NOT_FOUND"] = "OBJECT_NOT_FOUND";
+    // Object in immutable state
+    codes["OBJECT_IMMUTABLE"] = "OBJECT_IMMUTABLE";
     // Token Flags
     // Expiration time is passed
     codes["TOKEN_EXPIRED"] = "TOKEN_EXPIRED";
