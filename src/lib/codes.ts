@@ -41,5 +41,7 @@ export enum codes {
 
     // Mystery Flags
     // New phone, who dis?
-    UNKNOWN_ERROR = 'UKNOWN_ERROR',
+    UNKNOWN_ERROR = 'UNKNOWN_ERROR',
+
+    MAX_PAYLOAD_EXCEEDED = 'MAX_PAYLOAD_EXCEEDED',
 }
