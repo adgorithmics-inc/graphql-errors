@@ -6,8 +6,6 @@ export enum codes {
     OBJECT_NOT_FOUND = 'OBJECT_NOT_FOUND',
     // Object in immutable state
     OBJECT_IMMUTABLE = 'OBJECT_IMMUTABLE',
-    // Object is deleted
-    OBJECT_DELETED = 'OBJECT_DELETED',
 
     // Token Flags
     // Expiration time is passed
