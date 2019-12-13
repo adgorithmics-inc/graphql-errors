@@ -12,6 +12,8 @@ export enum codes {
     TOKEN_EXPIRED = 'TOKEN_EXPIRED',
     // Token does not contain expected parts after decrypting
     TOKEN_MALFORMED = 'TOKEN_MALFORMED',
+    // Refresh token is invalid
+    INVALID_REFRESH_TOKEN = 'INVALID_REFRESH_TOKEN',
 
     // Permissions Flags
     // User has insufficient permissions for the desired action
