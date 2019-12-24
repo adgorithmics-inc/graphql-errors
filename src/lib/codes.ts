@@ -14,6 +14,8 @@ export enum codes {
     TOKEN_MALFORMED = 'TOKEN_MALFORMED',
     // Refresh token is invalid
     INVALID_REFRESH_TOKEN = 'INVALID_REFRESH_TOKEN',
+    // No token provided
+    TOKEN_MISSING = 'TOKEN_MISSING',
 
     // Permissions Flags
     // User has insufficient permissions for the desired action
