@@ -41,9 +41,9 @@ export enum codes {
     // User input invalid
     INPUT_INVALID = 'INPUT_INVALID',
 
-    // Mystery Flags
-    // New phone, who dis?
+    // Something went wrong
     UNKNOWN_ERROR = 'UNKNOWN_ERROR',
 
+    // The amount of data requested exceeds the allowable limit.
     MAX_PAYLOAD_EXCEEDED = 'MAX_PAYLOAD_EXCEEDED',
 }
