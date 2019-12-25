@@ -14,6 +14,8 @@ export enum codes {
     TOKEN_MALFORMED = 'TOKEN_MALFORMED',
     // Refresh token is invalid
     INVALID_REFRESH_TOKEN = 'INVALID_REFRESH_TOKEN',
+    // No token provided
+    TOKEN_MISSING = 'TOKEN_MISSING',
 
     // Permissions Flags
     // User has insufficient permissions for the desired action
@@ -39,9 +41,9 @@ export enum codes {
     // User input invalid
     INPUT_INVALID = 'INPUT_INVALID',
 
-    // Mystery Flags
-    // New phone, who dis?
+    // Something went wrong
     UNKNOWN_ERROR = 'UNKNOWN_ERROR',
 
+    // The amount of data requested exceeds the allowable limit.
     MAX_PAYLOAD_EXCEEDED = 'MAX_PAYLOAD_EXCEEDED',
 }
