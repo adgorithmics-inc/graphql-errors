@@ -17,8 +17,8 @@
         "lint": "concurrently \"npm run lint:eslint\" \"npm run lint:prettier\"",
         "lint:eslint": "eslint . --ext ts",
         "lint:eslint:fix": "eslint . --ext ts --fix",
-        "lint:prettier": "prettier \"./src/**/*.ts\" -l",
-        "lint:prettier:fix": "prettier \"./src/**/*.ts\" --write"
+        "lint:prettier": "prettier \"./src/**/*.ts\" --ignore-path .eslintignore -l",
+        "lint:prettier:fix": "prettier \"./src/**/*.ts\" --ignore-path .eslintignore --write"
     },
     "repository": {
         "type": "git",
