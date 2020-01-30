@@ -46,4 +46,7 @@ export enum codes {
 
     // The amount of data requested exceeds the allowable limit.
     MAX_PAYLOAD_EXCEEDED = 'MAX_PAYLOAD_EXCEEDED',
+
+    // Service is temporarily unavailable due to maintenance
+    UNDER_MAINTENANCE = 'UNDER_MAINTENANCE',
 }
