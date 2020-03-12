@@ -19,3 +19,4 @@ export declare enum codes {
     MAX_PAYLOAD_EXCEEDED = "MAX_PAYLOAD_EXCEEDED",
     UNDER_MAINTENANCE = "UNDER_MAINTENANCE"
 }
+export declare const retryableCodes: codes[];
