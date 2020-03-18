@@ -49,6 +49,13 @@ export enum codes {
 
     // Service is temporarily unavailable due to maintenance
     UNDER_MAINTENANCE = 'UNDER_MAINTENANCE',
+
+    // Too many requests
+    REQUEST_LIMIT = 'REQUEST_LIMIT',
 }
 
-export const retryableCodes = [codes.UNDER_MAINTENANCE, codes.UNKNOWN_ERROR];
+export const retryableCodes = [
+    codes.UNDER_MAINTENANCE,
+    codes.UNKNOWN_ERROR,
+    codes.REQUEST_LIMIT,
+];
